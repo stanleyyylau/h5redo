@@ -460,9 +460,7 @@ img.p1-title-left-dusk {
 #warining-wrapper { display:none; }
 
 
-
 /*media queries to handle orientation and desktop screen*/
-
 @media only screen and (orientation:portrait){
         #warining-wrapper { display:none; }
 }
