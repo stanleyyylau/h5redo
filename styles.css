@@ -460,13 +460,29 @@ img.p1-title-left-dusk {
 
 
 
+
 /*media queries to handle orientation and desktop screen*/
 
-/*@media only screen and (orientation:portrait){
+@media only screen and (orientation:portrait){
         #warining-wrapper { display:none; }
-        #warning-message { display:block; }
 }
 
 @media only screen and (orientation:landscape){
-        #warning-message { display:none; }
-}*/
+  #warining-wrapper p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+  }
+
+  #warining-wrapper {
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    text-align: center;
+    display: table;
+    background-color: red;
+    position: relative;
+  }
+
+}
